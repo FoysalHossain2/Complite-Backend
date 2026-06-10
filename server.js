@@ -1,7 +1,12 @@
 const  app = require('./src/app');
 const  connectDB = require('./src/db/db');
 
-connectDB();
+try {
+    connectDB();
+} catch (error) {
+    console.error('Error connecting to DB:', error);
+    porocess.exit(1); // Exit the process with an error code
+}
 
 
 app.listen(3000, () => {
