@@ -6,12 +6,21 @@
   "scripts": {
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoysalHossain2/Complite-Backend.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FoysalHossain2/Complite-Backend/issues"
+  },
+  "homepage": "https://github.com/FoysalHossain2/Complite-Backend#readme",
   "dependencies": {
+    "@imagekit/nodejs": "^7.7.0",
     "express": "^5.2.1",
-    "mongoose": "^9.7.0"
+    "mongoose": "^9.7.0",
+    "multer": "^2.2.0"
   }
 }
